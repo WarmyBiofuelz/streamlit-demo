@@ -21,7 +21,7 @@ client = OpenAI(
     api_key=token,
 )
 
-st.title("Echo Bot")
+st.title("Warmy Bot")
 
 if "messages" not in st.session_state:
     st.session_state.messages = [
